@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 16</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"></header>
+			<main class="page">
+				<section class="page__questions questions">
+					<div class="questions__container">
+						<div class="questions__image">
+							<img src="img/questions/illustration.svg" alt="Image">
+						</div>
+						<div class="questions__body">
+							<div class="questions__header-block header-block">
+								<div class="header-block__label">Any questions?</div>
+								<h2 class="header-block__title">Drop us a line</h2>
+							</div>
+							<form action="#" class="questions__form form">
+								<div class="form__info">
+									<div class="form__line">
+										<label for="user-1st-name" class="form__label">First Name*</label>
+										<input type="text" placeholder="Your first name" name="user-first-name" id="user-1st-name" required class="form__input">
+									</div>
+									<div class="form__line">
+										<label for="user-2nd-name" class="form__label">Last  Name*</label>
+										<input type="text" placeholder="Your last name" name="user-last-name" id="user-2nd-name" required class="form__input">
+									</div>
+									<div class="form__line">
+										<label for="email" class="form__label">Email*</label>
+										<input type="email" placeholder="Your working email" name="user-email" id="email" required class="form__input">
+									</div>
+									<div class="form__line">
+										<label for="phone" class="form__label">Phone</label>
+										<input type="tel" placeholder="Your phone number" name="user-phone" id="phone" class="form__input">
+									</div>
+									<div class="form__line form__line--textarea">
+										<label for="message" class="form__label">Message*</label>
+										<textarea name="user-message" placeholder="Your message" id="message" required class="form__textarea"></textarea>
+									</div>
+								</div>
+								<div class="form__submit">
+									<div class="form__checkbox checkbox">
+										<input type="checkbox" name="agree" id="agree" class="checkbox__input">
+										<label for="agree" class="checkbox__label">
+											<span class="checkbox__text">
+												I agree to receive communications from Createx Online School
+											</span>
+										</label>
+									</div>
+									<button type="submit" class="form__button button"><span>Send message</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer"></footer>
+		</div>
+	</body>
+</html>
